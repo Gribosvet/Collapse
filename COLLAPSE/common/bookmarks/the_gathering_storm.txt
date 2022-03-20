@@ -73,5 +73,5 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-
-		
+	}
+}
