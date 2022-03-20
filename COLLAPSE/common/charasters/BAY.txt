@@ -1,0 +1,235 @@
+characters={
+        BAY_parlament={
+		name=BAY_parlament
+		portraits={
+			civilian={
+				large="gfx/leaders/BAY/BAY_goverment.dds"
+			}
+		}
+		country_leader={
+			ideology= leninism
+			traits={ all_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BAY_ernst_tellman={
+		name=BAY_ernst_tellman
+		portraits={
+			civilian={
+				large="gfx/leaders/BAY/Ernst_Thelmann.dds"
+			}
+			army={
+				large="gfx/leaders/BAY/Ernst_Thelmann.dds"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		country_leader={
+			ideology= radikal_communism_ideology
+			traits={ sparatkist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+		field_marshal={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=1935
+		}
+	}
+	
+	
+	BAY_otto_wels={
+		name=BAY_otto_wels
+		portraits={
+			civilian={
+				large="gfx/leaders/BAY/Wels.dds"
+			}
+		}
+		country_leader={
+			ideology= socialism_ideology
+			traits={ dem_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	BAY_wilhelm_pick={
+		name=BAY_wilhelm_pick
+		portraits={
+			civilian={
+				large="gfx/leaders/BAY/Portrait_Germany_Wilhelm_Pieck.dds"
+			}
+		}
+		country_leader={
+			ideology= leninism
+			traits={ normal_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	BAY_Franz_Xaver_Ritter_von_Epp={
+		name=BAY_Franz_Xaver_Ritter_von_Epp
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Franz_Xaver_Ritter_von_Epp.dds"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		field_marshal={
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=1920
+		}
+	}
+	
+		BAY_Kurt_von_Hammerstein-Equord={
+		name=BAY_Kurt_von_Hammerstein-Equord
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Kurt_von_Hammerstein-Equord.dds"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=1920
+		}
+	}
+	
+	
+	
+		BAY_Georg_Lindemann={
+		name=BAY_Georg_Lindemann
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Georg_Lindemann.dds"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=6
+			attack_skill=4
+			defense_skill=4
+			planning_skill=6
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	BAY_Erich_Muhsam={
+		name=BAY_Erich_Muhsam
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Erich_Muhsam.tga"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	
+	
+	BAY_Georg_Ledebour={
+		name=BAY_Georg_Ledebour
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Georg_Ledebour.tga"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=6
+			legacy_id=-1
+		}
+	}
+	
+	
+	BAY_Ernst_Toller={
+		name=BAY_Ernst_Toller
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Ernst_Toller.tga"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	
+	
+	BAY_Ottomar_Pech={
+		name=BAY_Ottomar_Pech
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Ottomar_Pech.tga"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=6
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	
+	BAY_Hans_Jendretzky={
+		name=BAY_Hans_Jendretzky
+		portraits={
+			army={
+				large="gfx/leaders/BAY/Hans_Jendretzky.tga"
+				small="gfx/interface/ideas/idea_CHI_sun_li_jen.dds"
+			}
+		}
+		
+		corps_commander={
+			skill=6
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+
+
+}

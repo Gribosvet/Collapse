@@ -1,0 +1,16 @@
+characters = {
+     DFA_leon_blum = {
+		name = "DFA_leon_blum" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/DFA_leon_blum.png"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {soc_dem}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

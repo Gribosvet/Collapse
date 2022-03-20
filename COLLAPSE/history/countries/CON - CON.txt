@@ -1,0 +1,81 @@
+﻿capital = 47
+
+
+ENG = {give_guarantee = CON}
+FRA = {give_guarantee = CON}
+SOV = {give_guarantee = CON}
+GRE = {give_guarantee = CON}
+
+
+
+
+
+
+set_research_slots = 3
+
+
+
+set_convoys = 10
+
+
+	
+	set_technology = {
+		tech_support = 1		
+		tech_engineers2 = 1
+		tech_recon = 1
+		early_fighter = 1
+		early_bomber = 1
+		CAS1 = 1
+		naval_bomber1 = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+	}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.6.9"
+	election_frequency = 7
+	elections_allowed = yes # none after offset 1
+}
+set_popularities = {
+	democratic = 81
+	fascism = 2
+	communism = 17
+}
+
+set_stability = 0.72
+set_war_support = 0.23
+set_convoys = 80
