@@ -1,0 +1,26 @@
+
+state = {
+	id = 836
+	name = "STATE_836"
+	manpower = 183748
+	
+	state_category = rural
+
+	history = {
+		owner = GER
+		buildings = {
+		
+			infrastructure = 2
+			
+		}
+		add_core_of = DEN
+		add_core_of = GER
+
+	}
+
+	provinces = {
+	332 11251
+	}
+
+	local_supplies = 6.0 
+}
