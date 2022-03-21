@@ -121,6 +121,8 @@ if = {
 
 
 set_convoys = 300
+add_ideas = {
+}
 
 set_politics = {
 	ruling_party = democratic
@@ -130,7 +132,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic =75
-	despotism = 25
+	Despotism = 25
 }
 
 

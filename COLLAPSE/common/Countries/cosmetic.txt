@@ -678,7 +678,7 @@ GUN_Ganzey_union_fascism = {
 
 GUN_Ganzey_union_despotism = {
 	color = rgb { 106  119  89 }
-	color_ui = rgb { 106  119  89 }
+	color_ui = rgb 106  119  89 }
 }
 
 GUN_Ganzey_union_communism = {
