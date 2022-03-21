@@ -4,4 +4,4 @@ tags={
 }
 name="Collapse"
 supported_version="1.11.9"
-path="C:/Users/Пользователь/Documents/Paradox Interactive/Hearts of Iron IV/mod/COLLAPSE"
+path="mod/COLLAPSE"
