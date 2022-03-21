@@ -389,6 +389,8 @@ POR_empire = {
 	color_ui = rgb { 19  83  180 }
 }
 
+
+
 GRE_dem_monarchy = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 93 181 227 }

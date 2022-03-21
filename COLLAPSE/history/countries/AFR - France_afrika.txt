@@ -25,8 +25,8 @@ set_technology = {
 	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
-	
 }
+
 
 set_politics = {
 	ruling_party = neutrality 
@@ -48,5 +48,8 @@ create_country_leader = {
     ideology = despotism
     traits = {
         #
-    	}
+    }
 }
+
+
+
