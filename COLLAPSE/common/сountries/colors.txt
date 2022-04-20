@@ -687,8 +687,8 @@ SAX = {
 	color_ui = rgb { 102 102 0 }
 }
 HAN = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb {  158 50 50}
+	color_ui = rgb { 158 50 50 }
 }
 WUR = {
 	color = rgb { 255 204 153 }

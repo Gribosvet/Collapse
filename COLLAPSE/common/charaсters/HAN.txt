@@ -1,0 +1,16 @@
+characters = {
+     HAN_senate = {
+		name = "HAN_senate" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAN/HAN_senate.png"
+			}
+		}
+		country_leader = {
+			ideology = conservaism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
