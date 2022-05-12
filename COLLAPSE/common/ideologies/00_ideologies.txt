@@ -71,6 +71,9 @@ ideologies = {
 			leninism = {
 			}
 			
+			stalinism = {
+			}
+			
 			sindikalism = {
 			}
 			
