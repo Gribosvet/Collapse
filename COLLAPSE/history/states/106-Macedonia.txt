@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BUL
+		owner = YUG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 			3882 5
 		}
 		add_core_of = BUL
-		add_core_of = MAC
+		add_core_of = YUG
 	}
 
 	provinces={

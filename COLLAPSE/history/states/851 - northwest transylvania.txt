@@ -1,0 +1,24 @@
+
+state = {
+	id = 851
+	name = "STATE_851"
+	manpower = 1223423
+	
+	state_category = large_town
+
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}		
+		add_core_of = HUN  
+		add_core_of = ROM    
+
+	}
+
+	provinces = {
+	 713 746 3696 3709 9687  	          
+	}
+
+	local_supplies = 6.0 
+}

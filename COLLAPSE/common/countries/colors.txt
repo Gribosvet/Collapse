@@ -710,10 +710,6 @@ LIV = {
 	color = rgb { 24 84 51 }
 	color_ui = rgb { 24 84 51}
 	}
-BUS = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 201 56 93}
-	}
 AFR = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
@@ -757,6 +753,10 @@ DFA = {
 MOL = {
 	color = rgb { 116 55 37 }
 	color_ui = rgb {  116 55 37 }
+}
+RUS = {
+	color = rgb {  54 108 51 }
+	color_ui = rgb { 54 108 51 } #72 143 68
 }
 
 
