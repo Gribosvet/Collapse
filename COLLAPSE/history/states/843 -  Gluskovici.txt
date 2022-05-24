@@ -13,6 +13,9 @@ state = {
 			infrastructure = 2
 			
 		}
+		victory_points = {
+			6232 1
+		}
 		add_core_of = BLR
 		add_claim_by = UKR
 		add_core_of = SOV
@@ -20,7 +23,7 @@ state = {
 	}
 
 	provinces = {
-	 6556 9554                       
+	 6232 6556 9554                       
 	}
 
 	local_supplies = 6.0 
