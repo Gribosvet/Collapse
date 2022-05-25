@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 	
 	history={
-		owner = ITA
+		owner = FRA
 		buildings = {
 			infrastructure = 1
 		}
@@ -14,7 +14,7 @@ state={
 	}
 	
 	provinces={
-		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 
+		1174 4051 4117 4176 4962 7154 7194 7985 10037 10067 11940 12009 12866 
 	}
 
 	local_supplies=0.0 

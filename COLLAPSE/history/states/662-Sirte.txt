@@ -7,7 +7,7 @@ state={
 	
 	
 	history={
-		owner = ITA
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,7 +15,7 @@ state={
 	}
 	
 	provinces={
-		4200 7076 7136 8069 13073 
+		1198 4200 4057 7076 8069  
 	}
 
 	local_supplies=0.0 
