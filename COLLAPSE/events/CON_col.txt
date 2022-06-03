@@ -1,0 +1,48 @@
+﻿add_namespace = CON_col
+
+country_event = {
+	id = CON_col.1
+	title = CON_col.1.t
+	desc = CON_col.1.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CON_col.1.a
+	}
+}
+
+
+
+
+
+country_event = {
+	id = CON_col.2
+	title = CON_col.2.t
+	desc = CON_col.2.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CON_col.2.a
+		complete_national_focus = CON_parliamentary_elections
+		complete_national_focus = CON_most_of_the_Grecophiles
+
+	}
+	option = {
+		name = CON_col.2.b
+        complete_national_focus = CON_parliamentary_elections
+		complete_national_focus = CON_most_of_the_osmophiles
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = yes
+			last_election = "1936.04.10"
+			election_frequency = 48
+		}
+	}
+}
+
+
+

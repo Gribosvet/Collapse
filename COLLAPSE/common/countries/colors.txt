@@ -383,8 +383,8 @@ GEO = {
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
-	color_ui = rgb { 176  102  180 }
+	color = rgb { 106 44 37 }
+	color_ui = rgb { 106 44 37 }
 }
 
 LAO = {
@@ -719,8 +719,8 @@ KAZ = {
 	color_ui = rgb { 72 143 68}
 	}
 OSM = {
-	color = rgb { 133 149 117 }
-	color_ui = rgb { 133 149 117 }
+	color = rgb { 106 44 37 }
+	color_ui = rgb { 106 44 37 }
 	}
 CON = {
 	color = rgb { 105 7 98 }
@@ -758,5 +758,17 @@ RUS = {
 	color = rgb {  54 108 51 }
 	color_ui = rgb { 54 108 51 } #72 143 68
 }
+ARA = {
+	color = rgb { 106 44 37 }
+	color_ui = rgb { 106 44 37 }
+	}
+KUR = {
+	color = rgb { 106 44 37 }
+	color_ui = rgb { 106 44 37 }
+	}
+JAB = {
+	color = rgb { 106 44 37 }
+	color_ui = rgb { 106 44 37 }
+	}
 
 

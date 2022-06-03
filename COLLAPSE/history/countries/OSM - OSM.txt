@@ -116,4 +116,23 @@ set_war_support = 0.3
 
 
 
+	set_autonomy = {
+		target = ARA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ARM
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = KUR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = JAB
+		autonomous_state = autonomy_puppet
+	}
+
+
+
 

@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		two_currencies = {
+			
+			allowed = {
+				original_tag = CON
+			}
+
+			allowed_civil_war = {
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				stability_weekly = -0.01				
+			}
+			
+
+		}
+
+
+
+	}
+}

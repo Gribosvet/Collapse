@@ -1,0 +1,25 @@
+
+state = {
+	id = 855
+	name = "STATE_855"
+	manpower = 13452
+	
+	state_category = wasteland
+
+	history = {
+		owner = JAB
+		buildings = {
+		}
+		victory_points = {
+			10901 1 
+		}
+		add_core_of = JAB
+
+	}
+
+	provinces = {
+		2027 2057 4603 4974 5027 5058 5099 7970 8101 10815 10901 12455 13237 13238 13239 13240    
+	}
+
+	local_supplies = 6.0 
+}

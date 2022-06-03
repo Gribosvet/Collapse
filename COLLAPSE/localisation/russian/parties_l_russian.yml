@@ -932,6 +932,14 @@
  CHU_democratic_party_long:0 "Чувашско-тюркский государственный совет"
  CHU_neutrality_party:0 "ЧПС"
  CHU_neutrality_party_long:0 "Чувашский православный союз"
+ CON_communism_party:0 "БКП"
+ CON_communism_party_long:0 "Босфорская коммунистическая партия"
+ CON_fascism_party:0 "БНП"
+ CON_fascism_party_long:0 "Босфорская национальная партия"
+ CON_democratic_party:0 "Партия грекофилов"
+ CON_democratic_party_long:0 "Партия грекофилов"
+ CON_neutrality_party:0 "Партия османофилов"
+ CON_neutrality_party_long:0 "Партия османофилов"
 
  
  

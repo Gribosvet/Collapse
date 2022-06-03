@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = ENG
+		owner = ARA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,11 +19,11 @@ state={
 			11976 1 
 		}
 
-		add_core_of = JOR
+		add_core_of = ARA
 	}
 
 	provinces={
-		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+		1544 4017 4115 4440 4562 4574 4591 7001 7151 7170 10089 11976 
 	}
 
 	local_supplies=0.0 

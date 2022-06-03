@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BAV"
+		default_country = "BAY"
 		default = yes
 		
 		"FRA"={
@@ -33,8 +33,8 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"BAV"={
-			history = "BAV_GATHERING_STORM_DESC"
+		"BAY"={
+			history = "BAY_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 			}
@@ -59,9 +59,9 @@ bookmarks = {
 				
 			}			
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {

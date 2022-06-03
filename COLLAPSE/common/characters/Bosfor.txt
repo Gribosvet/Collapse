@@ -1,0 +1,29 @@
+characters={
+	CON_leader1 = {
+		name = CON_leader1
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/bosfor/bosfor.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CON_LEADER1_DESC"
+			ideology = conservatism
+		}
+	}
+
+
+	CON_leader2 = {
+		name = CON_leader2
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/bosfor/bosfor.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CON_LEADER2_DESC"
+			ideology = despotism
+		}
+	}
+
+}

@@ -1,15 +1,4 @@
-﻿capital = 47
-
-
-ENG = {give_guarantee = CON}
-FRA = {give_guarantee = CON}
-SOV = {give_guarantee = CON}
-GRE = {give_guarantee = CON}
-
-
-
-
-
+﻿capital = 797
 
 set_research_slots = 3
 
@@ -66,16 +55,19 @@ set_convoys = 10
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.6.9"
+	last_election = "1935.04.10"
 	election_frequency = 7
-	elections_allowed = yes # none after offset 1
+	elections_allowed = yes 
+}
+add_ideas = {
+two_currencies	
 }
 set_popularities = {
-	democratic = 81
-	fascism = 2
-	communism = 17
+	democratic = 50
+	neutrality = 50
 }
 
-set_stability = 0.72
-set_war_support = 0.23
-set_convoys = 80
+
+recruit_character = CON_leader1
+recruit_character = CON_leader2
+

@@ -1,0 +1,114 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_goal_COM_Most_syndicalists"
+	texturefile = "gfx/interface/goals/COM/COM_Most_syndicalists.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_COM_most_communists"
+	texturefile = "gfx/interface/goals/COM/COM_most_communists.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_COM_general_mobilization"
+	texturefile = "gfx/interface/goals/COM/COM_general_mobilization.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_COM_creation_of_communes"
+	texturefile = "gfx/interface/goals/COM/COM_creation_of_communes.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_COM_proclaim_revolutionary_France"
+	texturefile = "gfx/interface/goals/COM/COM_proclaim_revolutionary_France.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NFA_saving_france"
+	texturefile = "gfx/interface/goals/NFA/NFA_saving_france.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NFA_mobilize_part_of_the_population"
+	texturefile = "gfx/interface/goals/NFA/NFA_mobilize_part_of_the_population.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NFA_reassure_democrats"
+	texturefile = "gfx/interface/goals/NFA/NFA_reassure_democrats.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NFA_democracy_has_not_justified_itself"
+	texturefile = "gfx/interface/goals/NFA/NFA_democracy_has_not_justified_itself.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_NFA_destroy_the_revolutionaries"
+	texturefile = "gfx/interface/goals/NFA/NFA_destroy_the_revolutionaries.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_DFA_leon_blum"
+	texturefile = "gfx/interface/goals/DFA/DFA_leon_blum.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_DFA_they_destroyed_our_country"
+	texturefile = "gfx/interface/goals/DFA/DFA_they_destroyed_our_country.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_DFA_temporary_alliance_with_the_Communists"
+	texturefile = "gfx/interface/goals/DFA/DFA_temporary_alliance_with_the_Communists.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_the_Bosphorus_in_1936"
+	texturefile = "gfx/interface/goals/CONg/CON_the_Bosphorus_in_1936.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_parliamentary_elections"
+	texturefile = "gfx/interface/goals/CONg/CON_parliamentary_elections.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_most_of_the_Grecophiles"
+	texturefile = "gfx/interface/goals/CONg/CON_most_of_the_Grecophiles.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_most_of_the_osmophiles"
+	texturefile = "gfx/interface/goals/CONg/CON_most_of_the_osmophiles.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_visa-free_entry_to_greece"
+	texturefile = "gfx/interface/goals/CONg/CON_visa-free_entry_to_greece.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_visa-free_entry_to_Turkey"
+	texturefile = "gfx/interface/goals/CONg/CON_visa-free_entry_to_Turkey.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_withdrawal_of_the_Ottoman_lira_from_circulation"
+	texturefile = "gfx/interface/goals/CONg/CON_withdrawal_of_the_Ottoman_lira_from_circulation.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_withdrawal_of_drachmas_from_circulation"
+	texturefile = "gfx/interface/goals/CONg/CON_withdrawal_of_drachmas_from_circulation.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_CON_the_fight_against_terrorism"
+	texturefile = "gfx/interface/goals/CONg/CON_the_fight_against_terrorism.png"			
+	}
+}
+	
+	

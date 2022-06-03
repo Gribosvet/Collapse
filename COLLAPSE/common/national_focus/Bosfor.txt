@@ -1,0 +1,349 @@
+focus_tree = {
+	id = bosfor
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CON
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1650 }
+
+#	focus = {
+#		id = CON_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+
+	focus = {
+		id = CON_the_Bosphorus_in_1936
+		icon = GFX_goal_CON_the_Bosphorus_in_1936
+		prerequisite = {  }
+		mutually_exclusive = {   }
+		x = 20
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			country_event = { days = 1 id = CON_col.1 }
+			hidden_effect ={
+				country_event = { days = 30 id = CON_col.2 }
+			}
+        
+		}
+	}
+
+
+
+
+
+	focus = {
+		id = CON_parliamentary_elections
+		icon = GFX_goal_CON_parliamentary_elections
+		prerequisite = { focus = CON_the_Bosphorus_in_1936  }
+		mutually_exclusive = {   }
+		x = 20
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+
+	focus = {
+		id = CON_most_of_the_Grecophiles
+		icon = GFX_goal_CON_most_of_the_Grecophiles
+		prerequisite = { focus = CON_parliamentary_elections  }
+		mutually_exclusive = { focus = CON_most_of_the_osmophiles   }
+		x = 18
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+
+	focus = {
+		id = CON_most_of_the_osmophiles
+		icon = GFX_goal_CON_most_of_the_osmophiles
+		prerequisite = { focus = CON_parliamentary_elections  }
+		mutually_exclusive = { focus = CON_most_of_the_Grecophiles  }
+		x = 22
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+	focus = {
+		id = CON_visa-free_entry_to_greece
+		icon = GFX_goal_CON_visa-free_entry_to_greece
+		prerequisite = { focus = CON_most_of_the_Grecophiles  }
+		mutually_exclusive = { }
+		x = 18
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+	focus = {
+		id = CON_visa-free_entry_to_Turkey
+		icon = GFX_goal_CON_visa-free_entry_to_Turkey
+		prerequisite = { focus = CON_most_of_the_osmophiles  }
+		mutually_exclusive = {  }
+		x = 22
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+	focus = {
+		id = CON_withdrawal_of_the_Ottoman_lira_from_circulation
+		icon = GFX_goal_CON_withdrawal_of_the_Ottoman_lira_from_circulation
+		prerequisite = { focus = CON_visa-free_entry_to_greece  }
+		mutually_exclusive = {  }
+		x = 18
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+	focus = {
+		id = CON_withdrawal_of_drachmas_from_circulation
+		icon = GFX_goal_CON_withdrawal_of_drachmas_from_circulation
+		prerequisite = { focus = CON_visa-free_entry_to_Turkey  }
+		mutually_exclusive = {  }
+		x = 22
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+
+	focus = {
+		id = CON_the_fight_against_terrorism
+		icon = GFX_goal_CON_the_fight_against_terrorism
+		prerequisite = { focus = CON_withdrawal_of_drachmas_from_circulation  }
+		prerequisite = { focus = CON_withdrawal_of_the_Ottoman_lira_from_circulation  }
+		mutually_exclusive = {  }
+		x = 20
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+			
+        
+		}
+	}
+
+
+
+
+
