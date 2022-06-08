@@ -1,0 +1,16 @@
+characters = {
+     RUS_Lavrovy_Koren = {
+		name = "RUS_Lavrovy_Koren" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Lavrovy_Koren.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {authoritarian}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
