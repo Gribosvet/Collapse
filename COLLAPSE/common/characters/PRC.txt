@@ -1,13 +1,13 @@
 characters = {
-     PRC_chi_wang_jingwei = {
-		name = "PRC_chi_wang_jingwei" 
+     PRC_wang_jingwei = {
+		name = "PRC__wang_jingwei" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRC/portrait_chi_wang_jingwei.dds"
+				large = "gfx/leaders/PRC/portrait_wang_jingwei.dds"
 			}
 		}
 		country_leader = {
-			ideology = communism
+			ideology = marxism
 			traits = {}
 			expire = "1950.1.1.1"
 			id = -1
