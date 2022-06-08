@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	history={
-		owner = YUN
-		add_core_of = YUN
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
 			infrastructure = 1
 
