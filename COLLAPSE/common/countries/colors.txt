@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 143 1 1 }
-	color_ui = rgb { 143 1 1 }
+	color = rgb { 58 112 141 }
+	color_ui = rgb { 58 112 141 }
 }
 MON = {
 	color = rgb {  92 92 92 }
@@ -308,8 +308,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 100 48 50 }
-	color_ui = rgb { 100 48 50 }
+	color = rgb { 141 58 62 }
+	color_ui = rgb { 141 58 62 }
 }
 
 GXC = {

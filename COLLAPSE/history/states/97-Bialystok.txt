@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = SOV
 		add_claim_by = LIT
+		add_claim_by = POL
 
 	}
 
