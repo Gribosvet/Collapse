@@ -1,6 +1,6 @@
 characters = {
      PRC_wang_jingwei = {
-		name = "PRC__wang_jingwei" 
+		name = "PRC_wang_jingwei" 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/PRC/portrait_wang_jingwei.dds"
