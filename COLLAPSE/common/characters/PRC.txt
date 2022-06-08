@@ -1,0 +1,16 @@
+characters = {
+     PRC_chi_wang_jingwei = {
+		name = "PRC_chi_wang_jingwei" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/portrait_chi_wang_jingwei.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
