@@ -7,7 +7,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = SOV
+		owner = RUS
 		buildings = {
 		
 			infrastructure = 2
@@ -18,7 +18,7 @@ state = {
 		}
 		add_core_of = BLR
 		add_claim_by = UKR
-		add_core_of = SOV
+		add_core_of = RUS
 
 	}
 
