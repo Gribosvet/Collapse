@@ -27,7 +27,7 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = KSH
-		add_claim_by = PRE
+		add_core_of = PRE
 	}
 
 	provinces={

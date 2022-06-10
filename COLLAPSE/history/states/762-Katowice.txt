@@ -21,7 +21,7 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = SIL
-		add_claim_by = PRE
+		add_core_of = PRE
 	}
 
 	local_supplies=0.0 

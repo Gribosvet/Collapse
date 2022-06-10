@@ -1,0 +1,16 @@
+characters = {
+     BAY_Ernst_Thalmann = {
+		name = "BAY_Ernst_Thalmann" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAY/Portrait_Ernst_Thalmann.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

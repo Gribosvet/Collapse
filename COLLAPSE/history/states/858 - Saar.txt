@@ -1,0 +1,26 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 124534
+	
+	state_category = enclave
+
+	history = {
+		owner = FRA
+		buildings = {
+                        infrastructure = 3
+		}
+		victory_points = {
+			11531 1 
+		}
+		add_core_of = FRA
+		add_core_of = BAY
+
+	}
+
+	provinces = {
+		11531
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 856
+	name = "STATE_856"
+	manpower = 21000
+	
+	state_category = enclave
+
+	history = {
+		owner = BEL
+		buildings = {
+                        infrastructure = 3
+		}
+		victory_points = {
+			3488 1 
+		}
+		add_core_of = BEL
+
+	}
+
+	provinces = {
+		3488
+	}
+
+	local_supplies = 0.0 
+}
