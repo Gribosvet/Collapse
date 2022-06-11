@@ -8,7 +8,7 @@ state={
 		owner = ITA
 		buildings = {
 			infrastructure = 3
-			arms_factory = 6
+			arms_factory = 2
 			6788 = {
 				naval_base = 8
 			}
