@@ -1,0 +1,23 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		6680 6678 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			6680 1 
+		}
+		add_core_of = AUS
+	}
+	manpower= 134218
+	buildings_max_level_factor= 1.000
+	state_category= town
+
+	local_supplies = 0.0 
+}
