@@ -1,0 +1,16 @@
+characters = {
+     OSM_abdulmejid_ii = {
+		name = "OSM_abdulmejid_ii" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OSM/portrait_tur_abdulmejid_ii.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = 
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
