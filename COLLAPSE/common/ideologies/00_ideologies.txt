@@ -67,6 +67,9 @@ ideologies = {
 		
 			marxism = {
 			}
+
+			anti_revisionism = {
+			}
 			
 			leninism = {
 			}
@@ -74,17 +77,10 @@ ideologies = {
 			stalinism = {
 			}
 			
-			sindikalism = {
+			syndikalism = {
 			}
 			
 			anarchist_communism = {
-			}
-			
-			social_democratism = {
-			can_be_randomly_selected = no
-			}
-			
-			military_communism = {
 			}
 			
 			strasserism = {

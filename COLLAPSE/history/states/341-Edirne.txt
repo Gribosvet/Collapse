@@ -27,7 +27,7 @@ state= {
 	}
 	provinces=
 	{
-922 3893 11842 	}
+922 3893 11842 13242 	}
 
 	local_supplies=0.0 
 }

@@ -123,16 +123,7 @@ if = {
 	}
 }
 
-<<<<<<< Updated upstream
-set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
-=======
-<<<<<<< HEAD
 
-
-=======
-set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
->>>>>>> a4fbb46e04070af0a1d7ee29925a1ff205ee1759
->>>>>>> Stashed changes
 
 
 set_convoys = 50
