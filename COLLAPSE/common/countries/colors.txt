@@ -778,4 +778,7 @@ ZHI = {
 	color = rgb { 89 79 74 }
 	color_ui = rgb { 89 79 74 }
 	}
-
+TYR = {
+	color = rgb { 32  38  32 }
+	color_ui = rgb { 32  38  32 }
+	}
