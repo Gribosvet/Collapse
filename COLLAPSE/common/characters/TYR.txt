@@ -1,9 +1,9 @@
 characters = {
-     TYR_leader1 = {
-		name = "TYR_leader1" 
+     TYR_Julius_Streicher = {
+		name = "TYR_Julius_Streicher" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TYR/TYR_leader1.dds"
+				large = "gfx/leaders/TYR/TYR_Julius_Streicher.png"
 			}
 		}
 		country_leader = {

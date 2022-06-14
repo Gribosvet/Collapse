@@ -142,7 +142,26 @@ set_popularities = {
 
 recruit_character = RUS_Lavrovy_Koren
 
-
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = LIV
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = FIN
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MOL
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = LIT
+		autonomous_state = autonomy_puppet
+	}
 
 
 

@@ -702,10 +702,6 @@ BAY = {
 	color = rgb { 72 49 112 }
 	color_ui = rgb { 72 49 112 }
 }
-HOR = {
-	color = rgb { 36 33 66 }
-	color_ui = rgb { 36 33 66 }
-}
 LIV = {
 	color = rgb { 24 84 51 }
 	color_ui = rgb { 24 84 51}
@@ -737,18 +733,6 @@ TRA = {
 BOS = {
 	color = rgb {39 84 49 }
 	color_ui = rgb {39 84 49  }
-}
-COM = {
-	color = rgb {175 13 0 }
-	color_ui = rgb {175 13 0  }
-}
-NFA = {
-	color = rgb {0 18 127 }
-	color_ui = rgb {0 18 127  }
-}
-DFA = {
-	color = rgb { 30 84 183 }
-	color_ui = rgb { 35 101 222 }
 }
 MOL = {
 	color = rgb { 116 55 37 }

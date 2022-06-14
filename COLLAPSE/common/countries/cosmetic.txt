@@ -685,6 +685,10 @@ PGE_imperial_communism = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+RUS_protectorate = {
+	color = rgb { 24 84 51 }
+	color_ui = rgb { 24 84 51}
+}
 
 
 
