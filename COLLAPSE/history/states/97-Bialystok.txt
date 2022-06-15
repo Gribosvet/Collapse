@@ -20,8 +20,8 @@ state={
 
 		}
 		add_core_of = RUS
+		add_core_of = POL
 		add_claim_by = LIT
-		add_claim_by = POL
 
 	}
 
