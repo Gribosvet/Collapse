@@ -14,7 +14,6 @@ state={
 			833 1 
 		}
 		add_core_of = YUG
-		add_core_of = BUL
 	}
 	manpower= 150100
 	buildings_max_level_factor= 1.000

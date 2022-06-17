@@ -1,0 +1,24 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		12376 4583
+	}
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			12376 1 
+		}
+		add_core_of = RUS
+		add_core_of = ARM
+	}
+	manpower= 72568
+	buildings_max_level_factor= 1.000
+	state_category= town
+
+	local_supplies = 0.0 
+}
