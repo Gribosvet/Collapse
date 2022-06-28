@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = GFX_portrait_mon_demchugdongrub
+		texturefile = "gfx/leaders/MON/portrait_mon_demchugdongrub.dds"
+	}
+}	 	

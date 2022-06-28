@@ -160,6 +160,11 @@ set_popularities = {
 }
 
 
+create_faction = Entente
+add_to_faction = FRA
+add_to_faction = ENG
+add_to_faction = RUS
+
 recruit_character = FRA_francois_de_la_rocque
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez

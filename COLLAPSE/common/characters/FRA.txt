@@ -59,7 +59,64 @@ characters={
 		}
 	}
 
-
+	FRA_maurice_thorez={ #Communist Leader
+		name=FRA_maurice_thorez
+		portraits={
+			army={
+				small="GFX_idea_maurice_thorez"
+			}
+			civilian={
+				large="GFX_portrait_fra_maurice_thorez"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = maurice_thorez
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				or  = {
+					has_completed_focus  = FRA_leftist_rhetoric 
+					has_completed_focus  = FRA_invite_communist_ministers 
+				}
+				not  = {
+					has_country_leader  = {
+						character  = FRA_philippe_petain
+						ruling_only  = yes 
+					}
+				}
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					not  = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			traits  = {
+				communist_revolutionary 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = communism 
+				}
+			}
+			on_add  = {
+				FRA_right_wing_riot_effect = yes 
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 
 	FRA_rene_nicod={
 		name=FRA_rene_nicod
@@ -1106,7 +1163,182 @@ characters={
 		}
 	}
 
+	FRA_marcel_bucard={
+		name=FRA_marcel_bucard
+		portraits={
+			army={
+				small="GFX_idea_marcel_bucard"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = marcel_bucard
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				or  = {
+					has_completed_focus  = FRA_right_wing_rhetoric 
+					has_completed_focus  = FRA_utilize_the_leagues 
+					has_focus_tree  = vichy_french_focus
+				}
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
+					}
+					not  = {
+						has_autonomy_state  = autonomy_supervised_state
+					}
+				}
+			}
+			traits  = {
+				fascist_demagogue 
+			}
+			do_effect  = {
+				not  = {
+					has_government  = fascism 
+				}
+			}
+			on_add  = {
+				if  = {
+					limit  = {
+						not  = {
+							tag  = VIC 
+						}
+					}
+					country_event  = lar_france_political_violence.2
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
 
+	FRA_rene_massigli={
+		name=FRA_rene_massigli
+		portraits={
+			army={
+				small="GFX_idea_rene_massigli"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rene_massigli
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				has_completed_focus  = FRA_confirm_eastern_commitments 
+				has_government  = democratic 
+			}
+			cost  = 75.000
+			traits  = {
+				hawk 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	FRA_georges_bonnet={
+		name=FRA_georges_bonnet
+		portraits={
+			army={
+				small="GFX_idea_georges_bonnet"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = georges_bonnet
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				has_completed_focus  = FRA_buy_time 
+				has_government  = democratic 
+			}
+			cost  = 75.000
+			traits  = {
+				appeaser 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	FRA_charles_maurras={
+		name=FRA_charles_maurras
+		portraits={
+			army={
+				small=GFX_portrait_FRA_charles_maurras_small
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = charles_maurras
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				has_completed_focus  = FRA_integralism 
+				or  = {
+					has_government  = fascism 
+					has_government  = neutrality 
+				}
+			}
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			cost  = 75.000
+			traits  = {
+				national_integralist 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+
+	FRA_philippe_henriot={
+		name=FRA_philippe_henriot
+		portraits={
+			army={
+				small="GFX_idea_FRA_philippe_henriot"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_philippe_henriot
+			allowed  = {
+				original_tag  = FRA
+			}
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			available  = {
+				has_completed_focus  = FRA_national_regeneration 
+				has_government  = fascism 
+			}
+			cost  = 75.000
+			traits  = {
+				propaganda_expert 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 
 	FRA_pierre_pucheu={
 		name=FRA_pierre_pucheu
@@ -1202,6 +1434,64 @@ characters={
 			}
 			traits  = {
 				smooth_talking_charmer 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	FRA_vincent_auriol={
+		name=FRA_vincent_auriol
+		portraits={
+			army={
+				small="GFX_idea_FRA_vincent_auriol"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_vincent_auriol
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				has_completed_focus  = FRA_form_the_popular_front 
+			}
+			traits  = {
+				financial_expert 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+
+	FRA_roger_salengro={
+		name=FRA_roger_salengro
+		portraits={
+			army={
+				small="GFX_idea_FRA_roger_salengro"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = FRA_roger_salengro
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				has_completed_focus  = FRA_form_the_popular_front 
+			}
+			traits  = {
+				compassionate_gentleman 
 			}
 			on_add  = {
 			}
