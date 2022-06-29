@@ -17,14 +17,6 @@ bookmarks = {
 				
 			}
 		}
-		"AUS"={
-			history = "AUS_GATHERING_STORM_DESC"
-			ideology = neutrrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic

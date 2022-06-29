@@ -162,6 +162,11 @@ recruit_character = RUS_Lavrovy_Koren
 		target = LIT
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_puppet
+	}
+
 
 
 

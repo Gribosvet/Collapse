@@ -17,10 +17,6 @@ state= {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			849 = {
-				naval_base = 3
-				coastal_bunker = 2
-			}
 		}
 		add_core_of = OSM
 		add_core_of = GRE

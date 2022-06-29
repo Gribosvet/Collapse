@@ -9,6 +9,9 @@ if = {
 	}
 }
 
+set_cosmetic_tag = RUS_protectorate
+
+
 set_research_slots = 3
 
 # Starting tech

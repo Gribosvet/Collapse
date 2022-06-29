@@ -1,6 +1,6 @@
 characters={
-	MON_prince_demchugdongrub={
-		name="Prince Demchugdongru"
+	MON_demchugdongrub={
+		name="MON_demchugdongrub"
 		portraits={
 			civilian={
 				large="GFX_portrait_mon_demchugdongrub"
