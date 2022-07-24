@@ -17,16 +17,17 @@ state={
 		victory_points = {
 			9511 3
 		}
-		owner = SIL
+		owner = POL
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = PRE
 		add_core_of = SIL
+		add_core_of = POL
 	}
 
 	provinces={
-		479 6512 9457 9511 11467 
+		479 9457 9511 11467 
 	}
 
 	local_supplies=4.0 
