@@ -88,7 +88,6 @@ if = {
 	add_ideas = {
 		uncontrolled_exports
 		POL_april_constitution_1
-		POL_looming_peasants_strike
 		POL_sanation_left_opposition_1
 		POL_sanation_right_opposition_1
 	}
@@ -269,9 +268,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 32
-	fascism = 11
-	communism = 19
+	democratic = 22
+	fascism = 31
+	communism = 9
 	neutrality = 38
 }
 
@@ -284,7 +283,8 @@ set_popularities = {
 	}
 }
 
-recruit_character = POL_ignacy_moscicki
+#recruit_character = POL_ignacy_moscicki
+recruit_character = POL_roman_dmowski
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
 recruit_character = POL_wladyslaw_gomulka
@@ -318,7 +318,6 @@ recruit_character = POL_kazimierz_switalski
 recruit_character = POL_wanda_wasilewska
 recruit_character = POL_tomislaw_lupaszko
 recruit_character = POL_zygmunt_buhusz_szysko
-recruit_character = POL_roman_dmowski
 recruit_character = POL_witold_pilecki
 recruit_character = POL_irena_anders
 recruit_character = POL_mieczyslaw_michalowicz

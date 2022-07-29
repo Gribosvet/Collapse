@@ -34,8 +34,8 @@
  falangism_desc:0 "Фалангизм — авторитарная идеология с чертами фашизма и консерватизма, делающая ставку на национальное и католическое самосознание."
  rexism:0 "Рексизм"
  rexism_desc:0 "Рексизм противопоставляет себя одновременно и либеральным, и коммунистическим идеологиям. Это сугубо консервативное националистическое движение, ратующее за корпоративную экономическую политику. Используя популистскую и авторитарную риторику, постепенно сближается с фашистскими движениями."
- neutrality:0 "Деспотизм"
- neutrality_noun:0 "Деспотизм"
+ neutrality:0 "Авторитаризм"
+ neutrality_noun:0 "Авторитаризм"
  neutrality_desc:0 "Авторитарный режим"
  despotism:0 "Деспотизм"
  despotism_desc:0 "Деспотизм — форма правления, при которой вся абсолютная власть принадлежит одному человеку."
@@ -62,7 +62,8 @@
  POL_communism_party_long:2 "Коммунистическая партия Польши"
  POL_democratic_party:0 "ПКП"
  POL_democratic_party_long:0 "Польская крестьянская партия"
- POL_neutrality_party:1 "Санация"
+ POL_neutrality_party:1 "НДП"
+ POL_neutrality_party_long:1 "Narodowa Demokracja"
  POL_OZON_party:1 "OZN"
  POL_OZON_party_long:0 "Лагерь национального объединения" #Camp of National Unity
  POL_POS_party:0 "ВОО"
@@ -942,6 +943,11 @@
  CON_neutrality_party_long:0 "Партия османофилов"
  TYR_fascism_party:0 "ДНБ"
  TYR_fascism_party_long:0 "Движение "Новая Бавария""
-
- 
+ PRE_neutrality_party:0 "НННП"
+ PRE_neutrality_party_long:0 "Немецкая национальная народная партия"
+ PRE_fascism_party:0 "НСДАП"
+ PRE_fascism_party_long:0 "Национал-социалистическая немецкая рабочая партия"
+ PRE_communism_party:0 "КПП"
+ PRE_communism_party_long:0 "Коммунистическая партия Пруссии"
+ PRE_democratic_party:1 "Партия Центра"
  

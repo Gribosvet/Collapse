@@ -77,7 +77,7 @@ set_stability = 0.75
 
 
 
-recruit_character = TYR_Ernst_Remm       #TYR_Julius_Streicher
+recruit_character = TYR_Ernst_Rohm       #TYR_Julius_Streicher
 
 
 

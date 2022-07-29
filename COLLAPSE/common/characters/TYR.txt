@@ -1,9 +1,9 @@
 characters = {
-     TYR_Ernst_Remm = {
-		name = "TYR_Ernst_Remm" 
+     TYR_Ernst_Rohm = {
+		name = "TYR_Ernst_Rohm" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TYR/TYR_Ernst_Remm.png"
+				large = "GFX_portrait_TYR_Ernst_Rohm"
 			}
 		}
 		country_leader = {

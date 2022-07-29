@@ -1,0 +1,27 @@
+
+state={
+	id=870
+	name="STATE_870"
+	manpower = 23526
+	
+	state_category = town
+
+	history={
+		owner = LIT
+		victory_points = {
+			281 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = PRE
+		add_core_of = LIT
+	}
+
+	provinces={
+		348 281 13249
+	}
+
+	local_supplies=0.0 
+}

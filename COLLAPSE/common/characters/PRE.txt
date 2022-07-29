@@ -1,0 +1,16 @@
+characters = {
+     PRE_Alfred_Hugenberg = {
+		name = "PRE_Alfred_Hugenberg" 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PRE_Alfred_Hugenberg"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

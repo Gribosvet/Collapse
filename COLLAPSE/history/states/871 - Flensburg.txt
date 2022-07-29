@@ -1,0 +1,26 @@
+
+state={
+	id=871
+	name="STATE_871"
+	manpower = 74936
+	
+	state_category = town
+
+	history={
+		owner = DEN
+		victory_points = {
+			11366 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = DEN
+		add_core_of = HAN
+	}
+
+	provinces={
+		11366
+	}
+
+	local_supplies=0.0 
+}

@@ -5,4 +5,14 @@ spriteTypes = {
 		name = GFX_portrait_mon_demchugdongrub
 		texturefile = "gfx/leaders/MON/portrait_mon_demchugdongrub.dds"
 	}
+	 	
+	spriteType = {
+		name = GFX_portrait_TYR_Ernst_Rohm
+		texturefile = "gfx/leaders/TYR/TYR_Ernst_Remm.png"
+	}
+	 	
+	spriteType = {
+		name = GFX_portrait_PRE_Alfred_Hugenberg
+		texturefile = "gfx/leaders/PRE/PRE_Alfred_Hugenberg.dds"
+	}
 }	 	
