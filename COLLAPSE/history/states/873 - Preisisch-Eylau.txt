@@ -1,0 +1,22 @@
+
+state={
+	id=873
+	name="STATE_873"
+	manpower = 74936
+	
+	state_category = town
+
+	history={
+		owner = PRE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRE
+	}
+
+	provinces={
+		13251
+	}
+
+	local_supplies=0.0 
+}
