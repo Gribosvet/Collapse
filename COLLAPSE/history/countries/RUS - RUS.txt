@@ -135,12 +135,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	neutrality = 88
+	democratic = 12
+	fascism = 8
+	neutrality = 80
 }
 
-recruit_character = RUS_Lavrovy_Koren
+recruit_character = RUS_Lavr_Kornilov
+recruit_character = RUS_Sergey_Markov
+recruit_character = RUS_Anton_Denikin
 
 	set_autonomy = {
 		target = UKR

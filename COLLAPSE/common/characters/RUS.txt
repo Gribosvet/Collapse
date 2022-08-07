@@ -1,16 +1,64 @@
 characters = {
-     RUS_Lavrovy_Koren = {
-		name = "RUS_Lavrovy_Koren" 
+     RUS_Lavr_Kornilov = {
+		name = "RUS_Lavr_Kornilov" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RUS/Lavrovy_Koren.dds"
+				large = "GFX_portrait_RUS_Lavr_Kornilov"
+			}
+			army={
+				large="GFX_portrait_RUS_Lavr_Kornilov"
 			}
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {authoritarian}
+			traits = { authoritarian }
 			expire = "1950.1.1.1"
 			id = -1
+                }
+		field_marshal={
+			traits = { old_guard great_war_hero }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id= -1
+		
 		}
 	}
+
+     RUS_Sergey_Markov = {
+		name = "RUS_Sergey_Markov" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Sergey_Markov"
+			}
+		}
+		corps_commander={
+			traits = { veteran_anti_bolshevik }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id= -1
+		}
+	}
+
+     RUS_Anton_Denikin = {
+		name = "RUS_Anton_Denikin" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Anton_Denikin"
+			}
+		}
+		corps_commander={
+			traits = { veteran_anti_bolshevik }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id= -1
+		}
 }

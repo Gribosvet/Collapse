@@ -15,4 +15,19 @@ spriteTypes = {
 		name = GFX_portrait_PRE_Alfred_Hugenberg
 		texturefile = "gfx/leaders/PRE/PRE_Alfred_Hugenberg.dds"
 	}
+
+			spriteType = {
+		name = GFX_portrait_RUS_Sergey_Markov
+		texturefile = "gfx/leaders/RUS/RUS_Sergey_Markov.dds"
+	}
+
+		spriteType = {
+		name = GFX_portrait_RUS_Anton_Denikin
+		texturefile = "gfx/leaders/RUS/RUS_Anton_Denikin.dds"
+	}
+
+			spriteType = {
+		name = GFX_portrait_RUS_Lavr_Kornilov
+		texturefile = "gfx/leaders/RUS/RUS_Lavr_Kornilov.dds"
+	}
 }	 	
