@@ -30,4 +30,9 @@ spriteTypes = {
 		name = GFX_portrait_RUS_Lavr_Kornilov
 		texturefile = "gfx/leaders/RUS/RUS_Lavr_Kornilov.dds"
 	}
-}	 	
+
+				spriteType = {
+		name = GFX_portrait_RUS_Vladimir_Sidorin
+		texturefile = "gfx/leaders/RUS/RUS_Vladimir_Sidorin.dds"
+	}
+}

@@ -143,6 +143,7 @@ set_popularities = {
 recruit_character = RUS_Lavr_Kornilov
 recruit_character = RUS_Sergey_Markov
 recruit_character = RUS_Anton_Denikin
+recruit_character = RUS_Vladimir_Sidorin
 
 	set_autonomy = {
 		target = UKR

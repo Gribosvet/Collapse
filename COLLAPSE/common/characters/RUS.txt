@@ -61,4 +61,22 @@ characters = {
 			logistics_skill=4
 			legacy_id= -1
 		}
+	}
+
+	 RUS_Vladimir_Sidorin = {
+		name = "RUS_Vladimir_Sidorin" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Vladimir_Sidorin"
+			}
+		}
+		corps_commander={
+			traits = { veteran_anti_bolshevik }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id= -1
+		}
 }
