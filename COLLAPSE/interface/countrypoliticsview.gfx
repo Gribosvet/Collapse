@@ -456,7 +456,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+		texturefile = "gfx/interface/ideologies/neutrality_group.png"
 	}	
 	
 	spriteType = {
@@ -472,6 +472,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_democratic_group"
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_group"
+		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_rev_marxism_group"
+		texturefile = "gfx/interface/ideologies/rev_marxism_group.png"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_liberalism_ideology_group"
+		texturefile = "gfx/interface/ideologies/liberalism_ideology_group.png"
 	}
 
 	spriteType = {
