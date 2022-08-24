@@ -162,7 +162,11 @@ recruit_character = RUS_Vladimir_Sidorin
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
-		target = LIT
+		target = LAT
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = EST
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
