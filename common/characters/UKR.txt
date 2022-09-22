@@ -1,0 +1,16 @@
+characters = {
+     UKR_Osel = {
+		name = "UKR_Osel" 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_UKR_Osel"
+			}
+		}
+		country_leader = {
+			ideology = corp_solidarism_subideology
+			traits = { authoritarian }
+			expire = "1950.1.1.1"
+			id = -1
+                }
+	}
+}

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism_subideology
+			ideology= corp_solidarism_subideology
 			expire="1965.1.1.1"
 			id=-1
 		}
