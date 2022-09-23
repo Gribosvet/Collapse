@@ -1,9 +1,9 @@
 characters = {
-     UKR_Osel = {
-		name = "UKR_Osel" 
+     UKR_Andrey_Nikovsky = {
+		name = "UKR_Andrey_Nikovsky" 
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_UKR_Osel"
+				large = "gfx/leaders/UKR/UKR_Andrey_Nikovsky.png"
 			}
 		}
 		country_leader = {
