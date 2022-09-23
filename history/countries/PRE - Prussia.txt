@@ -79,15 +79,20 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
+country_event = { id = PRE.1 days = 10 }
 
 recruit_character = PRE_Alfred_Hugenberg
+recruit_character = PRE_Walter_Simons
+recruit_character = PRE_Franz_von_pappen
+recruit_character = PRE_Gottfried_Feder
 
 set_popularities = {
 	democratic = 30
-	fascism = 0
-	communism = 0
-        neutrality = 70
+	fascism = 10
+	communism = 10
+	socdem_ideology = 30
+    neutrality = 20
 }

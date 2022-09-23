@@ -12,6 +12,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+
+	right_hand = {
+		sprite = 13
+		political_power_gain = 0.5
+		stability_factor = 0.3
+		war_stability_factor = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	
 	
 	sparatkist = {

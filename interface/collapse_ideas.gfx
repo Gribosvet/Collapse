@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_NNNP_golden_are"
+		texturefile = "gfx/interface/ideas/pre/NNNP_golden_are.png"
+	}
+

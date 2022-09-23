@@ -1,0 +1,678 @@
+focus_tree = {
+	id = Preußen
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRE
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1650 }
+
+  ###NNNP#####
+	focus = {
+		id = PRE_Keep_the_course
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {  }
+		mutually_exclusive = { }
+		x = 20
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_government = neutrality
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_stifle_trade_unions
+		icon = GFX_goal_PRE_stifle_trade_unions
+		prerequisite = {focus = PRE_Keep_the_course  }
+		mutually_exclusive = {}
+		x = 19
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_stability = -0.1
+		add_command_power = -15
+        	add_popularity = {
+    		ideology = communism
+    		popularity = -0.1
+			}
+		add_manpower = -20000
+		}
+	}
+
+
+	focus = {
+		id = PRE_ban_the_SDPG
+		icon = GFX_goal_PRE_ban_the_SDPG
+		prerequisite = {focus = PRE_Keep_the_course  }
+		mutually_exclusive = {}
+		x = 21
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        	add_popularity = {
+    		ideology = socdem_ideology
+    		popularity = -0.2
+			}
+			add_manpower = -1000
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_dispersal_of_the_Reichstag
+		icon = GFX_goal_PRE_dispersal_of_the_Reichstag
+		prerequisite = {focus = PRE_ban_the_SDPG  }
+		prerequisite = {focus = PRE_stifle_trade_unions  }
+		mutually_exclusive = {}
+		x = 18
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        	add_popularity = {
+    		ideology = socdem_ideology
+    		popularity = -0.1
+			}
+        	add_popularity = {
+    		ideology = democratic
+    		popularity = -0.3
+			}
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_tax_increases
+		icon = GFX_goal_PRE_tax_increases
+		prerequisite = {focus =PRE_dispersal_of_the_Reichstag  }
+		mutually_exclusive = {}
+		x = 18
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		add_stability = -0.1
+		add_political_power = 55
+		add_manpower = -1000
+		hidden_effect = {
+		country_event = { id = PRE.5 days = 10 }
+		}
+        
+		}
+	}
+
+
+	focus = {
+		id = PRE_your_people_at_the_posts
+		icon = GFX_goal_PRE_your_people_at_the_posts
+		prerequisite = {focus =PRE_tax_increases  }
+		mutually_exclusive = {}
+		x = 18
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_ideas = {
+        PRE_Franz_von_pappen
+		}
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_dreams_of_the_monarchy
+		icon = GFX_goal_PRE_dreams_of_the_monarchy
+		prerequisite = {focus = PRE_ban_the_SDPG  }
+		prerequisite = {focus = PRE_stifle_trade_unions  }
+		mutually_exclusive = {}
+		x = 22
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        country_event = { id = PRE.3 days = 1 }	
+		add_stability = 0.1
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_invite_William_3_to_the_throne 
+		icon = GFX_goal_PRE_invite_William_3_to_the_throne
+		prerequisite = {focus = PRE_dreams_of_the_monarchy  }
+		mutually_exclusive = {}
+		x = 22
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_ideas = {
+		PRE_William_III
+		}
+		set_cosmetic_tag = PRE_kingdom
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_restoration_of_the_privileges_of_the_aristocracy
+		icon = GFX_goal_PRE_restoration_of_the_privileges_of_the_aristocracy
+		prerequisite = {focus = PRE_invite_William_3_to_the_throne   }
+		mutually_exclusive = {}
+		x = 22
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        army_experience = -10
+		add_political_power = -30
+		add_stability = -0.05
+		add_manpower = 10000
+		}
+	}
+
+
+	focus = {
+		id = PRE_The_Golden_Age_of_the_NNNP
+		icon = GFX_goal_PRE_The_Golden_Age_of_the_NNNP
+		prerequisite = {focus = PRE_restoration_of_the_privileges_of_the_aristocracy  }
+		prerequisite = {focus = PRE_your_people_at_the_posts  }
+		mutually_exclusive = {}
+		x = 20
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		add_ideas = {
+		The_NNNP_Dictatorship
+		}
+		}
+	}
+
+	 ##vnesnya_politika#####
+
+
+
+	focus = {
+		id = PRE_finish_what_you_started
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 10
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		has_completed_focus  = PRE_dispersal_of_the_Reichstag
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+
+	focus = {
+		id = PRE_Solve_the_Danish_question
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_finish_what_you_started }
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 9
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		always = no
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_negotiations_on_the_status_of_Hanover
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_finish_what_you_started}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 13
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		always = no
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+	###NNNP#####
+
+
+	focus = {
+		id = PRE_Revolution_for_the_people
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 30
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_Appeal_to_the_people
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_Revolution_for_the_people }
+		mutually_exclusive = {}
+		x = 30
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_official_recognition_of_TAP
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_Appeal_to_the_people }
+		mutually_exclusive = {}
+		x = 32
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_The_Treaty_of_Eternal_Friendship
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_official_recognition_of_TAP }
+		mutually_exclusive = {}
+		x = 31
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_Joint_military_exercises
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_official_recognition_of_TAP }
+		mutually_exclusive = {}
+		x = 33
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_Our_doll
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_Joint_military_exercises }
+		prerequisite = {focus = PRE_The_Treaty_of_Eternal_Friendship }
+		mutually_exclusive = {}
+		x = 32
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		hidden_trigger = {
+		always = no
+		}
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        add_political_power = 100
+		add_stability = 0.4
+		add_war_support = 0.5
+		}
+	}
+
+
+
+
+
+
+
+

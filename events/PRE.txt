@@ -1,0 +1,178 @@
+﻿add_namespace = PRE
+
+
+
+country_event = {
+	id = PRE.1
+	title = PRE.1.t
+	desc = PRE.1.d
+	picture = GFX_report_event_spr_nationalist_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.1.a
+
+	}
+	option = {
+		name = PRE.1.b
+		hidden_effect = {
+		country_event = { id = PRE.2 days = 30 }	
+		}
+	}
+}
+
+
+
+country_event = {
+	id = PRE.2
+	title = PRE.2.t
+	desc = PRE.2.d
+	picture = GFX_report_event_spr_nationalist_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.2.a
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			last_election = "1936.03.10"
+			election_frequency = 48
+		}
+		country_event = { id = PRE.4 days = 30 }
+
+	}
+}
+
+
+country_event = {
+	id = PRE.3
+	title = PRE.3.t
+	desc = PRE.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.3.a
+
+	}
+}
+
+
+country_event = {
+	id = PRE.5
+	title = PRE.5.t
+	desc = PRE.5.d
+	picture = GFX_report_event_nazis_in_danzig
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.5.a
+        add_popularity = {
+    	ideology = fascism
+   		popularity = -0.4
+		}
+	}
+
+
+	option = {
+		name = PRE.5.b
+		add_popularity = {
+   	 	ideology = corp_solidarism
+    	popularity = 0.4
+		}
+		hidden_effect = {
+        country_event = { id = PRE.6 days = 10 }
+		}
+	}
+}
+
+
+country_event = {
+	id = PRE.6
+	title = PRE.6.t
+	desc = PRE.6.d
+	picture = GFX_report_event_nazis_in_danzig
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.6.a
+		add_popularity = {
+   	 	ideology = corp_solidarism
+    	popularity = 0.4
+		}
+		set_politics = {
+		ruling_party = corp_solidarism
+    	elections_allowed = no
+    	last_election = "1935.12.17"
+		}
+		complete_national_focus = PRE_Revolution_for_the_people
+	}
+}
+
+
+
+
+country_event = {
+	id = PRE.4
+	title = PRE.4.t
+	desc = PRE.4.d
+	picture = GFX_report_event_spr_nationalist_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE.4.a
+        
+	}
+
+	option = {
+		name = PRE.4.b
+
+	}
+
+	option = {
+		name = PRE.4.c
+
+	}
+
+	option = {
+		name = PRE.4.e
+
+	}
+}
+
+news_event = { #Возрождение монархии
+    id = PRE_news.1
+	title = { text = PRE_news.1.t }
+	desc = { text = PRE_news.1.d }
+	major = yes
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	picture = GFX_news_event_048
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = PRE_news.1.a
+		trigger = {
+		    tag = PRE
+			
+			
+			
+		}
+	}
+	option = {
+		name = PRE_news.1.b
+		trigger = {
+		    NOT = { tag = PRE }
+		}
+	}
+}
+
+
+

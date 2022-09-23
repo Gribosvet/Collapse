@@ -1,0 +1,55 @@
+ideas = {
+
+	country = {
+		The_NNNP_Dictatorship = {
+			
+			allowed = {
+				original_tag = PRE
+			}
+
+			allowed_civil_war = {
+			}
+			
+			removal_cost = -1
+
+			picture = NNNP_golden_are
+			
+			modifier = {
+				stability_weekly = 0.05			
+			}
+			
+
+		}
+
+
+
+	}
+
+
+
+	country = {
+		PRE_William_III = {
+			
+			allowed = {
+				original_tag = PRE
+			}
+
+			allowed_civil_war = {
+			}
+			
+			removal_cost = -1
+
+			picture = ger_wilhelm_iii
+			
+			modifier = {
+				stability_weekly = 0.05	
+				political_power_gain = 0.05		
+			}
+			
+
+		}
+
+
+
+	}
+}

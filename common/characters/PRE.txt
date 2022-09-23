@@ -1,5 +1,6 @@
 characters = {
-     PRE_Alfred_Hugenberg = {
+     
+	 PRE_Alfred_Hugenberg = {
 		name = "PRE_Alfred_Hugenberg" 
 		portraits = {
 			civilian = {
@@ -8,6 +9,64 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+
+
+
+     PRE_Walter_Simons = {
+		name = "PRE_Walter_Simons" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRE/PRE_Walter_Simons.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+
+ 
+     PRE_Franz_von_pappen = { 
+		name = "PRE_Franz_von_pappen" 
+		portraits = {          
+			civilian = {
+				small = "gfx/interface/ideas/pre/pappen.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRE_Franz_von_pappen
+			allowed  = {
+				original_tag  = PRE
+			}
+			available = {has_completed_focus = PRE_your_people_at_the_posts}
+			traits  = {
+				right_hand
+			}
+		}
+	}
+
+
+
+
+     PRE_Gottfried_Feder = {
+		name = "PRE_Gottfried_Feder" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRE/PRE_Gottfried_Feder.png"
+			}
+		}
+		country_leader = {
+			ideology = corp_solidarism_subideology
 			traits = {}
 			expire = "1950.1.1.1"
 			id = -1

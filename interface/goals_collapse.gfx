@@ -44,6 +44,62 @@ spriteTypes = {
 	name = "GFX_goal_CON_the_fight_against_terrorism"
 	texturefile = "gfx/interface/goals/CONg/CON_the_fight_against_terrorism.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_bastion_of_democracy"
+	texturefile = "gfx/interface/goals/PRE/PRE_bastion_of_democracy.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_keep_the_current_course"
+	texturefile = "gfx/interface/goals/PRE/PRE_keep_the_current_course.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_stifle_trade_unions"
+	texturefile = "gfx/interface/goals/PRE/PRE_stifle_trade_unions.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_ban_the_SDPG"
+	texturefile = "gfx/interface/goals/PRE/PRE_ban_the_SDPG.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_dispersal_of_the_Reichstag"
+	texturefile = "gfx/interface/goals/PRE/PRE_dispersal_of_the_Reichstag.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_tax_increases"
+	texturefile = "gfx/interface/goals/PRE/PRE_tax_increases.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_your_people_at_the_posts"
+	texturefile = "gfx/interface/goals/PRE/PRE_your_people_at_the_posts.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_dreams_of_the_monarchy"
+	texturefile = "gfx/interface/goals/PRE/PRE_dreams_of_the_monarchy.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_invite_William_3_to_the_throne"
+	texturefile = "gfx/interface/goals/PRE/PRE_invite_William_3_to_the_throne.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_restoration_of_the_privileges_of_the_aristocracy"
+	texturefile = "gfx/interface/goals/PRE/PRE_restoration_of_the_privileges_of_the_aristocracy.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_PRE_The_Golden_Age_of_the_NNNP"
+	texturefile = "gfx/interface/goals/PRE/PRE_The_Golden_Age_of_the_NNNP.png"			
+	}
+	
 }
 	
 	
