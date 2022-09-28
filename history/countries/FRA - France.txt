@@ -147,22 +147,21 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = corp_solidarism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 64
+	corp_solidarism = 64
 	democratic = 1
-	neutrality = 15
+	fascism = 15
 	communism = 20
 }
 
 
 create_faction = Entente
 add_to_faction = FRA
-add_to_faction = ENG
 add_to_faction = RUS
 
 recruit_character = FRA_francois_de_la_rocque
