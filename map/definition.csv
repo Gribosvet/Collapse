@@ -13244,9 +13244,6 @@
 13243;255;187;0;land;false;plains;2
 13244;0;255;237;land;false;plains;2
 13245;140;8;77;lake;false;lakes;0
-13246;40;8;77;lake;false;lakes;0
-13247;3;136;90;land;true;plains;2
-13248;127;120;17;land;false;plains;2
-13249;196;88;147;land;false;plains;2
-13250;255;38;182;land;false;plains;2
-13251;215;255;96;land;false;plains;2
+13246;3;136;90;land;true;plains;2
+13247;127;120;17;land;false;plains;2
+13248;196;88;147;land;false;plains;2
