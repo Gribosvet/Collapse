@@ -4,9 +4,18 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BAY"
+		default_country = "RUS"
 		default = yes
 		
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -41,6 +50,15 @@ bookmarks = {
 			focuses = {
 			}		
 		}
+
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = lib_marxism
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
 		"PRE"={
 			history = "PRE_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -51,15 +69,6 @@ bookmarks = {
 				
 			}			
 		}
-		"RUS"={
-			history = "RUS_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}	
-		}
-
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
