@@ -3,7 +3,7 @@ tags={
 	"Alternative History"
 }
 name="Collapse: HOI4 mod"
-supported_version="1.11.*"
+supported_version="1.12.*"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_strategy"
 replace_path="common/national_focus"

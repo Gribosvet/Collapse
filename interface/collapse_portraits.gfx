@@ -6,7 +6,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MON/portrait_mon_demchugdongrub.dds"
 	}
 
-		spriteType = {
+	spriteType = {
 		name = GFX_portrait_FIN_parliament
 		texturefile = "gfx/leaders/FIN/portrait_parliament.dds"
 	}
@@ -21,33 +21,38 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PRE/PRE_Alfred_Hugenberg.dds"
 	}
 
-			spriteType = {
+	spriteType = {
 		name = GFX_portrait_RUS_Sergey_Markov
 		texturefile = "gfx/leaders/RUS/RUS_Sergey_Markov.dds"
 	}
 
-		spriteType = {
+	spriteType = {
 		name = GFX_portrait_RUS_Anton_Denikin
 		texturefile = "gfx/leaders/RUS/RUS_Anton_Denikin.dds"
 	}
 
-			spriteType = {
+	spriteType = {
 		name = GFX_portrait_RUS_Lavr_Kornilov
 		texturefile = "gfx/leaders/RUS/RUS_Lavr_Kornilov.dds"
 	}
 
-				spriteType = {
+	spriteType = {
 		name = GFX_portrait_RUS_Vladimir_Sidorin
 		texturefile = "gfx/leaders/RUS/RUS_Vladimir_Sidorin.dds"
 	}
 
-					spriteType = {
+	spriteType = {
 		name = GFX_portrait_RUS_Pavel_Bermondt_Avalov
 		texturefile = "gfx/leaders/RUS/RUS_Pavel_Bermondt_Avalov.dds"
 	}
 
-					spriteType = {
+	spriteType = {
 		name = GFX_portrait_UKR_Osel
 		texturefile = "gfx/leaders/UKR/Osel.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_RUS_Eugene_Miller
+		texturefile = "gfx/leaders/RUS/RUS_Eugene_Miller.dds"
 	}
 }

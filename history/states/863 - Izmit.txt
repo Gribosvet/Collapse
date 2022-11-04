@@ -13,6 +13,8 @@ state={
 			11811 1 
 		}
 		add_core_of = CON
+		add_core_of = OSM
+		add_claim_by = GRE
 	}
 	manpower= 34319
 	state_category= town

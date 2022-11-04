@@ -24,6 +24,8 @@ state={
 			9799 5
 		}
 		add_core_of = CON
+		add_core_of = OSM
+                add_claim_by = GRE
 		
 	}
 

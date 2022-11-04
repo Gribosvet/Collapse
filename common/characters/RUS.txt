@@ -79,7 +79,25 @@ characters = {
 			logistics_skill=3
 			legacy_id= -1
 		}
-    }
+	}
+
+     RUS_Eugene_Miller = {
+		name = "RUS_Eugene_Miller" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Eugene_Miller"
+			}
+		}
+		corps_commander={
+			traits = { veteran_anti_bolshevik }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id= -1
+		}
+	}
 
      RUS_Pavel_Bermondt_Avalov = {
 		name = "RUS_Pavel_Bermondt_Avalov" 
