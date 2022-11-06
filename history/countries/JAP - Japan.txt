@@ -2,14 +2,6 @@
 
 
 
-set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
-set_war_support = 0.8
-
-set_research_slots = 4
-set_fuel_ratio = 1.0
-add_ideas = {
-}
-
 609 = {
 	start_resistance = yes
 	set_compliance = 5
@@ -37,12 +29,6 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
 
 
 set_technology = {
