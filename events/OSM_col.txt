@@ -1,0 +1,113 @@
+﻿add_namespace = OSM_col
+add_namespace = OSM_col_news
+
+country_event = {
+	id = OSM_col.1
+	title = OSM_col.1.t
+	desc = OSM_col.1.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OSM_col.1.a
+	}
+}
+
+
+country_event = {
+	id = OSM_col.2
+	title = OSM_col.2.t
+	desc = OSM_col.2.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OSM_col.2.a
+		GRE = {declare_war_on = { target = OSM type = annex_everything }}
+		news_event = { id = OSM_col_news.1 days = 5 }
+	}
+}
+
+news_event = { 
+    id = OSM_col_news.1
+	title = { text = OSM_col_news.1.t }
+	desc = { text = OSM_col_news.1.d }
+	major = yes
+	
+	picture = GFX_news_event_048
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OSM_col_news.1.a
+		trigger = {
+		    tag = OSM
+			tag = GRE
+			
+			
+			
+		}
+	}
+	option = {
+		name = OSM_col_news.1.b
+		trigger = {
+		    NOT = { tag = OSM  tag = GRE }
+		}
+	}
+}
+
+country_event = {
+	id = OSM_col.3
+	title = OSM_col.3.t
+	desc = OSM_col.3.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OSM_col.3.a
+		GRE={country_event = { days = 5 id = GRE_col.2 }}
+	}
+}
+
+
+
+country_event = {
+	id = OSM_col.4
+	title = OSM_col.4.t
+	desc = OSM_col.4.d
+	picture = GFX_report_event_royal_parade
+	
+	trigger = {NOT ={controls_state = 342} tag = OSM}
+	
+	option = {
+		name = OSM_col.4.a
+		GRE={country_event = { days = 1 id = GRE_col.4 }}
+	}
+
+	option = {
+		name = OSM_col.4.b
+	}
+}
+
+country_event = {
+	id = OSM_col.5
+	title = OSM_col.5.t
+	desc = OSM_col.5.d
+	picture = GFX_report_event_royal_parade
+	
+	trigger = {NOT ={controls_state = 342 controls_state = 343}  tag = OSM}
+	
+	option = {
+		name = OSM_col.5.a
+		GRE={country_event = { days = 1 id = GRE_col.5 }}
+	}
+
+	option = {
+		name = OSM_col.5.b
+	}
+}
+
+

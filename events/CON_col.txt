@@ -45,4 +45,28 @@ country_event = {
 }
 
 
+country_event = {
+	id = CON_col.3
+	title = CON_col.3.t
+	desc = CON_col.3.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CON_col.3.a
+		trigger = {has_completed_focus  = CON_most_of_the_Grecophiles}
+		OSM = {country_event = { days = 10 id = OSM_col.3 }}
+        GRE = {annex_country = { target = CON transfer_troops = no  country_event = { days = 1 id = GRE_col.1 }}
+
+	}
+	option = {
+		name = CON_col.3.b
+        trigger = {has_completed_focus  = CON_most_of_the_osmophiles}
+		OSM = {annex_country = { target = CON transfer_troops = no country_event = { days = 1 id = OSM_col.1 }}
+		GRE = {country_event = { days = 10 id = GRE_col.3 }}
+	}
+}
+
+
 

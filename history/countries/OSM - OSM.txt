@@ -1,6 +1,6 @@
 ﻿capital = 49
 
-
+oob = "OSM_1936"
 
 
 

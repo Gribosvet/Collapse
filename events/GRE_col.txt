@@ -1,0 +1,132 @@
+﻿add_namespace = GRE_col
+add_namespace = GRE_col_news
+
+country_event = {
+	id = GRE_col.1
+	title = GRE_col.1.t
+	desc = GRE_col.1.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col.1.a
+	}
+}
+
+
+country_event = {
+	id = GRE_col.2
+	title = GRE_col.2.t
+	desc = GRE_col.2.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col.2.a
+		OSM = {declare_war_on = { target = GRE type = annex_everything }}
+		news_event = { id = GRE_col_news.1 days = 5 }
+	}
+}
+
+news_event = { 
+    id = GRE_col_news.1
+	title = { text = GRE_col_news.1.t }
+	desc = { text = GRE_col_news.1.d }
+	major = yes
+	
+	picture = GFX_news_event_048
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col_news.1.a
+		trigger = {
+		    tag = OSM
+			tag = GRE
+			
+			
+			
+		}
+	}
+	option = {
+		name = GRE_col_news.1.b
+		trigger = {
+		    NOT = { tag = OSM  tag = GRE }
+		}
+	}
+}
+
+
+country_event = {
+	id = GRE_col.3
+	title = GRE_col.3.t
+	desc = GRE_col.3.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col.3.a
+		OSM={country_event = { days = 5 id = OSM_col.2 }}
+	}
+}
+
+
+country_event = {
+	id = GRE_col.4
+	title = GRE_col.4.t
+	desc = GRE_col.4.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col.4.a
+		white_peace = {
+    	tag = OSM
+     	message = my_peace_tt
+		}
+		GRE = {transfer_state = 342}
+	}
+
+	option = {
+		name = GRE_col.4.a
+		add_named_threat = {
+    	threat = 5
+    	name = CON_escalation
+		}
+	}
+}
+
+
+country_event = {
+	id = GRE_col.5
+	title = GRE_col.5.t
+	desc = GRE_col.5.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GRE_col.5.a
+		white_peace = {
+    	tag = OSM
+     	message = my_peace_tt
+		}
+		GRE = {transfer_state = 342 transfer_state = 343}
+	}
+
+	option = {
+		name = GRE_col.5.a
+		add_named_threat = {
+    	threat = 5
+    	name = CON_escalation
+		}
+	}
+}
+
+
+
+
