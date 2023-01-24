@@ -1,0 +1,233 @@
+focus_tree = {
+	id = Kornilov
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1650 }
+
+
+
+
+	focus = {
+		id = RUS_Kornilovs_Russia
+		icon = GFX_goal_RUS_Kornilovs_Russia
+		prerequisite = {  }
+		mutually_exclusive = {   }
+		x = 20
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+
+	focus = {
+		id = RUS_the_state_of_the_economy
+		icon = GFX_goal_RUS_the_state_of_the_economy
+		prerequisite = { focus = RUS_Kornilovs_Russia  }
+		mutually_exclusive = {   }
+		x = 22
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+
+	focus = {
+		id = RUS_the_state_of_the_industry
+		icon = GFX_goal_RUS_the_state_of_the_industry
+		prerequisite = { focus = RUS_Kornilovs_Russia  }
+		mutually_exclusive = {   }
+		x = 18
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+	focus = {
+		id = RUS_the_state_of_the_army
+		icon = GFX_goal_RUS_the_state_of_the_army
+		prerequisite = { focus = RUS_the_state_of_the_industry }
+		prerequisite = { focus = RUS_the_state_of_the_economy }
+		x = 20
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+	focus = {
+		id = RUS_national_autonomies
+		icon = GFX_goal_RUS_national_autonomies
+		prerequisite = { focus = RUS_the_state_of_the_army }
+		mutually_exclusive = {   }
+		x = 18
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+
+	focus = {
+		id = RUS_opposition_to_our_government
+		icon = GFX_goal_RUS_opposition_to_our_government
+		prerequisite = { focus = RUS_the_state_of_the_army }
+		mutually_exclusive = {   }
+		x = 22
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}	
+
+
+	focus = {
+		id = RUS_The_question_of_the_heir
+		icon = GFX_unknown
+		prerequisite = { focus = RUS_opposition_to_our_government  }
+		prerequisite = { focus = RUS_national_autonomies}
+		x = 20
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+        
+		}
+	}
+
+
+	

@@ -5,3 +5,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/pre/NNNP_golden_are.png"
 	}
 
+
+	spriteType = {
+		name = "GFX_idea_PRE_Silesian_shame"
+		texturefile = "gfx/interface/ideas/pre/PRE_Silesian_shame.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRE_unpaid_reparations"
+		texturefile = "gfx/interface/ideas/pre/PRE_unpaid_reparations.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRE_freikor"
+		texturefile = "gfx/interface/ideas/pre/PRE_freikor.png"
+	}
+

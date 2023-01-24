@@ -96,3 +96,9 @@ set_popularities = {
 	socdem_ideology = 30
     neutrality = 20
 }
+
+add_ideas ={
+PRE_Silesian_shame
+PRE_unpaid_reparations
+PRE_freikor
+}

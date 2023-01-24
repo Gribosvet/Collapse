@@ -456,16 +456,16 @@ focus_tree = {
 		}
 	}
 
-	###NNNP#####
+	###nazi#####
 
 
 	focus = {
-		id = PRE_Revolution_for_the_people
+		id = PRE_deal_with_the_enemies
 		icon = GFX_goal_PRE_keep_the_current_course
 		prerequisite = {}
 		prerequisite = {}
 		mutually_exclusive = {}
-		x = 30
+		x = 50
 		y = 0
 
 		cost = 10
@@ -475,9 +475,7 @@ focus_tree = {
 		}
 
 		available = {
-		hidden_trigger = {
 		always = no
-		}
 		}
 		
 
@@ -487,55 +485,17 @@ focus_tree = {
 
 
 		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
 		}
 	}
 
 
-
 	focus = {
-		id = PRE_Appeal_to_the_people
+		id = PRE_expand_ss
 		icon = GFX_goal_PRE_keep_the_current_course
-		prerequisite = {focus = PRE_Revolution_for_the_people }
+		prerequisite = {focus = PRE_deal_with_the_enemies}
+		prerequisite = {}
 		mutually_exclusive = {}
-		x = 30
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		hidden_trigger = {
-		always = no
-		}
-		}
-		
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
-		}
-	}
-
-
-
-	focus = {
-		id = PRE_official_recognition_of_TAP
-		icon = GFX_goal_PRE_keep_the_current_course
-		prerequisite = {focus = PRE_Appeal_to_the_people }
-		mutually_exclusive = {}
-		x = 32
+		x = 48
 		y = 2
 
 		cost = 10
@@ -545,9 +505,6 @@ focus_tree = {
 		}
 
 		available = {
-		hidden_trigger = {
-		always = no
-		}
 		}
 		
 
@@ -557,20 +514,16 @@ focus_tree = {
 
 
 		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
 		}
 	}
 
-
-
 	focus = {
-		id = PRE_The_Treaty_of_Eternal_Friendship
+		id = PRE_create_the_Gestapo
 		icon = GFX_goal_PRE_keep_the_current_course
-		prerequisite = {focus = PRE_official_recognition_of_TAP }
+		prerequisite = {focus = PRE_expand_ss}
+		prerequisite = {}
 		mutually_exclusive = {}
-		x = 31
+		x = 48
 		y = 3
 
 		cost = 10
@@ -580,9 +533,6 @@ focus_tree = {
 		}
 
 		available = {
-		hidden_trigger = {
-		always = no
-		}
 		}
 		
 
@@ -592,20 +542,46 @@ focus_tree = {
 
 
 		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
+		}
+	}
+	
+
+	focus = {
+		id = PRE_political_enemies
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_deal_with_the_enemies}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 44
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
 		}
 	}
 
 
-
 	focus = {
-		id = PRE_Joint_military_exercises
+		id = PRE_banning_opposition_parties
 		icon = GFX_goal_PRE_keep_the_current_course
-		prerequisite = {focus = PRE_official_recognition_of_TAP }
+		prerequisite = {focus = PRE_political_enemies}
+		prerequisite = {}
 		mutually_exclusive = {}
-		x = 33
+		x = 46
 		y = 3
 
 		cost = 10
@@ -615,9 +591,6 @@ focus_tree = {
 		}
 
 		available = {
-		hidden_trigger = {
-		always = no
-		}
 		}
 		
 
@@ -627,21 +600,75 @@ focus_tree = {
 
 
 		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
 		}
 	}
 
 
+	focus = {
+		id = PRE_the_issue_of_sexual_minorities
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_political_enemies}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 42
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
 
 	focus = {
-		id = PRE_Our_doll
+		id = PRE_preventing_same-sex_marriage
 		icon = GFX_goal_PRE_keep_the_current_course
-		prerequisite = {focus = PRE_Joint_military_exercises }
-		prerequisite = {focus = PRE_The_Treaty_of_Eternal_Friendship }
+		prerequisite = {focus = PRE_the_issue_of_sexual_minorities}
+		prerequisite = {}
 		mutually_exclusive = {}
-		x = 32
+		x = 44
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_prohibition_of_propaganda
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_preventing_same-sex_marriage}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 44
 		y = 5
 
 		cost = 10
@@ -651,9 +678,6 @@ focus_tree = {
 		}
 
 		available = {
-		hidden_trigger = {
-		always = no
-		}
 		}
 		
 
@@ -663,12 +687,735 @@ focus_tree = {
 
 
 		completion_reward = {
-        add_political_power = 100
-		add_stability = 0.4
-		add_war_support = 0.5
 		}
 	}
 
+
+	focus = {
+		id = PRE_hunting_for_buggers
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_prohibition_of_propaganda}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 44
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_destroy_the_bastion_of_sodomy
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_hunting_for_buggers}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 44
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = PRE_LGBT_tolerance
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_the_issue_of_sexual_minorities}
+		prerequisite = {}
+		mutually_exclusive = {focus = PRE_preventing_same-sex_marriage}
+		x = 40
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_union_with_Remus
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_LGBT_tolerance}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 40
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_integration_of_Thuringia
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_union_with_Remus}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 40
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_prohibition_of_trade_unions
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_the_issue_of_sexual_minorities focus = PRE_banning_opposition_parties}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 47
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = PRE_prevent_opposition_agitation
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_prohibition_of_trade_unions}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 47
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_terms_of_the_right_position
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_prevent_opposition_agitation}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 47
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_national_enemies
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_deal_with_the_enemies}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 52
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = PRE_genocide
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_national_enemies}
+		prerequisite = {}
+		mutually_exclusive = {focus = PRE_ethnocide}
+		x = 50
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_pogrom_of_Jewish_districts
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_genocide}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 49
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_kill_the_gypsies
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_pogrom_of_Jewish_districts}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 49
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_the_solution_of_the_Slavic_question
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_kill_the_gypsies}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 49
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_sterilization_of_bastards
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_genocide}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 51
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_disabled_people
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_sterilization_of_bastards}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 51
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_no_sects
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_disabled_people}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 51
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_the_concentration_camp_system
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_no_sects focus = PRE_the_solution_of_the_Slavic_question focus = PRE_terms_of_the_right_position}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 49
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_ethnocide
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_national_enemies}
+		prerequisite = {}
+		mutually_exclusive = {focus = PRE_genocide}
+		x = 54
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_promote_domestic_culture
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_ethnocide}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 53
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_popular_events
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_promote_domestic_culture}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 53
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = PRE_german_cultural_hegemony
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_popular_events}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 53
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_promote_domestic_culture
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_ethnocide focus = PRE_genocide}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 55
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_banish_foreign_languages
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_ethnocide}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 55
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_ban_teaching_to_Jews
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_banish_foreign_languages}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 55
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = PRE_burn_foreign_sciences
+		icon = GFX_goal_PRE_keep_the_current_course
+		prerequisite = {focus = PRE_ban_teaching_to_Jews}
+		prerequisite = {}
+		mutually_exclusive = {}
+		x = 55
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+		completion_reward = {
+		}
+	}
 
 
 

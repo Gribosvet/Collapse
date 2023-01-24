@@ -99,7 +99,37 @@ spriteTypes = {
 	name = "GFX_goal_PRE_The_Golden_Age_of_the_NNNP"
 	texturefile = "gfx/interface/goals/PRE/PRE_The_Golden_Age_of_the_NNNP.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_goal_RUS_Kornilovs_Russia"
+	texturefile = "gfx/interface/goals/RUS/RUS_Kornilovs_Russia.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_RUS_the_state_of_the_economy"
+	texturefile = "gfx/interface/goals/RUS/RUS_the_state_of_the_economy.png"			
+	}
 	
+	SpriteType = {
+	name = "GFX_goal_RUS_the_state_of_the_industry"
+	texturefile = "gfx/interface/goals/RUS/RUS_the_state_of_the_industry.png"			
+	}
+
+
+	SpriteType = {
+	name = "GFX_goal_RUS_the_state_of_the_army"
+	texturefile = "gfx/interface/goals/RUS/RUS_the_state_of_the_army.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_RUS_national_autonomies"
+	texturefile = "gfx/interface/goals/RUS/RUS_national_autonomies.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_RUS_opposition_to_our_government"
+	texturefile = "gfx/interface/goals/RUS/RUS_opposition_to_our_government.png"			
+	}
 }
 	
 	
