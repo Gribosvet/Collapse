@@ -2,9 +2,6 @@
 state={
 	id=869
 	name="STATE_869"
-	manpower = 62427
-	
-	state_category = town
 
 	history={
 		owner = ITA
@@ -12,16 +9,20 @@ state={
 			9630 1 
 		}
 		buildings = {
-			infrastructure = 3 
+			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = ITA
 		add_core_of = AUS
+
 	}
 
 	provinces={
-		6631 9598 11598
+		6631 9598 
 	}
-
-	local_supplies=0.0 
+	manpower=62427
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -313,9 +313,10 @@ focus_tree = {
 
 
 	focus = {
-		id = CON_our_future
+		id = CON_the_fight_against_terrorism
 		icon = GFX_goal_CON_the_fight_against_terrorism
-		prerequisite = { focus = CON_withdrawal_of_drachmas_from_circulation focus = CON_withdrawal_of_the_Ottoman_lira_from_circulation  }
+		prerequisite = { focus = CON_withdrawal_of_drachmas_from_circulation  }
+		prerequisite = { focus = CON_withdrawal_of_the_Ottoman_lira_from_circulation  }
 		mutually_exclusive = {  }
 		x = 20
 		y = 5
@@ -336,8 +337,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		completion_reward = {	
-        country_event = { days = 1 id = CON_col.3 }
+		completion_reward = {
+			
+        
 		}
 	}
 
