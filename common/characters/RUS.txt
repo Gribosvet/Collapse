@@ -116,4 +116,41 @@ characters = {
 			legacy_id= -1
 		}
 	}
+
+     RUS_Sultan_Klich-Girey = {
+		name = "RUS_Sultan_Klich-Girey" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Sultan_Klich-Girey"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=4
+			legacy_id= -1
+		}
+	}
+
+     RUS_Pyotr_Vrangel = {
+		name = "RUS_Pyotr_Vrangel" 
+		portraits = {
+			army={
+				large="GFX_portrait_RUS_Pyotr_Vrangel"
+			}
+		}
+		corps_commander={
+			traits = { veteran_anti_bolshevik }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id= -1
+		}
+	}
+
 }

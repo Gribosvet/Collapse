@@ -55,4 +55,14 @@ spriteTypes = {
 		name = GFX_portrait_RUS_Eugene_Miller
 		texturefile = "gfx/leaders/RUS/RUS_Eugene_Miller.dds"
 	}
+
+		spriteType = {
+		name = GFX_portrait_RUS_Sultan_Klich-Girey
+		texturefile = "gfx/leaders/RUS/RUS_Sultan_Klich-Girey.dds"
+
+	}
+		spriteType = {
+		name = GFX_portrait_RUS_Pyotr_Vrangel
+		texturefile = "gfx/leaders/RUS/RUS_Pyotr_Vrangel.dds"
+	}
 }

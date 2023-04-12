@@ -163,6 +163,13 @@ set_popularities = {
 create_faction = Entente
 add_to_faction = FRA
 add_to_faction = RUS
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = SAF
+add_to_faction = RAJ
+add_to_faction = MAL
 
 recruit_character = FRA_francois_de_la_rocque
 recruit_character = FRA_philippe_petain

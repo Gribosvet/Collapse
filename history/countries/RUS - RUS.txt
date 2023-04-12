@@ -147,6 +147,8 @@ recruit_character = RUS_Anton_Denikin
 recruit_character = RUS_Vladimir_Sidorin
 recruit_character = RUS_Eugene_Miller
 recruit_character = RUS_Pavel_Bermondt_Avalov
+recruit_character = RUS_Sultan_Klich-Girey
+recruit_character = RUS_Pyotr_Vrangel
 
 	set_autonomy = {
 		target = UKR
